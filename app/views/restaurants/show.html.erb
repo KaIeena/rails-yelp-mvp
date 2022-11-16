@@ -1,4 +1,8 @@
 <%= render @restaurant %>
+<p>
+  <strong>Phone number:</strong>
+  <%= @restaurant.phone_number %>
+</p>
 
 <ul>
   <% @restaurant.reviews.each do |review| %>
